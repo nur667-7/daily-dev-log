@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "23 0 * * *"
   workflow_dispatch:
+    inputs:
+      smoke_test:
+        description: "Create or refresh a small workflow verification record"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,6 +31,18 @@ jobs:
       - name: Generate today's entry
         run: python3 generate_daily.py
 
+      - name: Record a manual workflow verification
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.smoke_test }}
+        env:
+          RUN_ID: ${{ github.run_id }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+        run: |
+          printf '{\n  "workflow_run_id": "%s",\n  "attempt": "%s",\n  "verified_at_utc": "%s"\n}\n' \
+            "$RUN_ID" \
+            "$RUN_ATTEMPT" \
+            "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            > data/automation-smoke-test.json
+
       - name: Commit a real content change
         env:
           BOT_NAME: nur667-7
@@ -32,7 +50,7 @@ jobs:
         run: |
           git config user.name "$BOT_NAME"
           git config user.email "$BOT_EMAIL"
-          git add data/daily data/latest.json
+          git add data
 
           if git diff --cached --quiet; then
             echo "No new UTC-date entry to commit."
