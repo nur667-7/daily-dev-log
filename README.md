@@ -6,7 +6,7 @@ A small, deterministic learning journal maintained by GitHub Actions. Every day 
 
 ## What the automation does
 
-- Runs every day at **00:23 UTC** on GitHub-hosted infrastructure.
+- Checks every day at **00:23 UTC** and **12:23 UTC** on GitHub-hosted infrastructure; the second run is a retry window.
 - Generates a short concept, practice challenge, and reflection question.
 - Creates at most one entry for each UTC calendar day.
 - Commits only when generated content changed.
