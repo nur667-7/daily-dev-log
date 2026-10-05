@@ -1,0 +1,44 @@
+name: Daily learning entry
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-learning-entry
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate today's entry
+        run: python3 generate_daily.py
+
+      - name: Commit a real content change
+        env:
+          BOT_NAME: nur667-7
+          BOT_EMAIL: 214433287+nur667-7@users.noreply.github.com
+        run: |
+          git config user.name "$BOT_NAME"
+          git config user.email "$BOT_EMAIL"
+          git add data/daily data/latest.json
+
+          if git diff --cached --quiet; then
+            echo "No new UTC-date entry to commit."
+            exit 0
+          fi
+
+          day="$(date -u +%F)"
+          git commit -m "chore(daily): automated learning entry ${day} [bot]"
+          git push
