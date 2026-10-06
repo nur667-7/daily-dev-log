@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-05",
-  "entry": "data/daily/2026-10-05.md",
-  "topic": "Caching",
-  "reflection": "Where is the boundary between a recoverable failure and a fatal one?"
+  "date": "2026-10-06",
+  "entry": "data/daily/2026-10-06.md",
+  "topic": "Boundary validation",
+  "reflection": "What can be removed while preserving the required behavior?"
 }
