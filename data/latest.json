@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "entry": "data/daily/2026-10-07.md",
-  "topic": "Idempotency",
-  "reflection": "What future change would this design make unnecessarily difficult?"
+  "date": "2026-10-08",
+  "entry": "data/daily/2026-10-08.md",
+  "topic": "Readable errors",
+  "reflection": "What can be removed while preserving the required behavior?"
 }
