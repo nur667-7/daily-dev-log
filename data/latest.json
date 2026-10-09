@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-08",
-  "entry": "data/daily/2026-10-08.md",
-  "topic": "Readable errors",
-  "reflection": "What can be removed while preserving the required behavior?"
+  "date": "2026-10-09",
+  "entry": "data/daily/2026-10-09.md",
+  "topic": "Observability",
+  "reflection": "What assumption would be most expensive if it turned out to be false?"
 }
