@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "entry": "data/daily/2026-10-09.md",
-  "topic": "Observability",
-  "reflection": "What assumption would be most expensive if it turned out to be false?"
+  "date": "2026-10-10",
+  "entry": "data/daily/2026-10-10.md",
+  "topic": "Data invariants",
+  "reflection": "What evidence would convince you that the change works in production?"
 }
