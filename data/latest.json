@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "entry": "data/daily/2026-10-10.md",
-  "topic": "Data invariants",
+  "date": "2026-10-11",
+  "entry": "data/daily/2026-10-11.md",
+  "topic": "Caching",
   "reflection": "What evidence would convince you that the change works in production?"
 }
