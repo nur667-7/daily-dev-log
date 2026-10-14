@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "entry": "data/daily/2026-10-13.md",
-  "topic": "Readable errors",
-  "reflection": "Which part could be made easier to verify with a smaller interface?"
+  "date": "2026-10-14",
+  "entry": "data/daily/2026-10-14.md",
+  "topic": "Idempotency",
+  "reflection": "What can be removed while preserving the required behavior?"
 }
