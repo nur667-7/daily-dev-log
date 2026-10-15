@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "entry": "data/daily/2026-10-14.md",
-  "topic": "Idempotency",
-  "reflection": "What can be removed while preserving the required behavior?"
+  "date": "2026-10-15",
+  "entry": "data/daily/2026-10-15.md",
+  "topic": "Focused tests",
+  "reflection": "What assumption would be most expensive if it turned out to be false?"
 }
