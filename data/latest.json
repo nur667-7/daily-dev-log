@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-19",
-  "entry": "data/daily/2026-10-19.md",
-  "topic": "Small functions",
-  "reflection": "What can be removed while preserving the required behavior?"
+  "date": "2026-10-20",
+  "entry": "data/daily/2026-10-20.md",
+  "topic": "Boundary validation",
+  "reflection": "Which edge case is currently handled only by convention?"
 }
