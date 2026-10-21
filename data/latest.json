@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "entry": "data/daily/2026-10-20.md",
+  "date": "2026-10-21",
+  "entry": "data/daily/2026-10-21.md",
   "topic": "Boundary validation",
-  "reflection": "Which edge case is currently handled only by convention?"
+  "reflection": "Which part could be made easier to verify with a smaller interface?"
 }
