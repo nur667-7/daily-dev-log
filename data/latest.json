@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "entry": "data/daily/2026-10-21.md",
-  "topic": "Boundary validation",
-  "reflection": "Which part could be made easier to verify with a smaller interface?"
+  "date": "2026-10-22",
+  "entry": "data/daily/2026-10-22.md",
+  "topic": "Small functions",
+  "reflection": "What evidence would convince you that the change works in production?"
 }
