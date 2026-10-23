@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-22",
-  "entry": "data/daily/2026-10-22.md",
-  "topic": "Small functions",
-  "reflection": "What evidence would convince you that the change works in production?"
+  "date": "2026-10-23",
+  "entry": "data/daily/2026-10-23.md",
+  "topic": "Dependency direction",
+  "reflection": "What future change would this design make unnecessarily difficult?"
 }
