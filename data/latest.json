@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-24",
-  "entry": "data/daily/2026-10-24.md",
-  "topic": "Readable errors",
-  "reflection": "What evidence would convince you that the change works in production?"
+  "date": "2026-10-25",
+  "entry": "data/daily/2026-10-25.md",
+  "topic": "Focused tests",
+  "reflection": "What can be removed while preserving the required behavior?"
 }
