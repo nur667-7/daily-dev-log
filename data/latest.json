@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-27",
-  "entry": "data/daily/2026-10-27.md",
-  "topic": "Boundary validation",
-  "reflection": "Where is the boundary between a recoverable failure and a fatal one?"
+  "date": "2026-10-28",
+  "entry": "data/daily/2026-10-28.md",
+  "topic": "Focused tests",
+  "reflection": "What can be removed while preserving the required behavior?"
 }
