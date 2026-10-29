@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-28",
-  "entry": "data/daily/2026-10-28.md",
-  "topic": "Focused tests",
-  "reflection": "What can be removed while preserving the required behavior?"
+  "date": "2026-10-29",
+  "entry": "data/daily/2026-10-29.md",
+  "topic": "Dependency direction",
+  "reflection": "What future change would this design make unnecessarily difficult?"
 }
