@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "entry": "data/daily/2026-10-30.md",
-  "topic": "Small functions",
-  "reflection": "What future change would this design make unnecessarily difficult?"
+  "date": "2026-10-31",
+  "entry": "data/daily/2026-10-31.md",
+  "topic": "Readable errors",
+  "reflection": "Which edge case is currently handled only by convention?"
 }
