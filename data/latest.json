@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "entry": "data/daily/2026-11-03.md",
-  "topic": "Concurrency",
+  "date": "2026-11-04",
+  "entry": "data/daily/2026-11-04.md",
+  "topic": "Safe migrations",
   "reflection": "What future change would this design make unnecessarily difficult?"
 }
