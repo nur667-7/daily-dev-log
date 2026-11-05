@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "entry": "data/daily/2026-11-04.md",
-  "topic": "Safe migrations",
-  "reflection": "What future change would this design make unnecessarily difficult?"
+  "date": "2026-11-05",
+  "entry": "data/daily/2026-11-05.md",
+  "topic": "API contracts",
+  "reflection": "Which part could be made easier to verify with a smaller interface?"
 }
