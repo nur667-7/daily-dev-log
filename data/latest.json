@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "entry": "data/daily/2026-11-07.md",
-  "topic": "Caching",
-  "reflection": "What evidence would convince you that the change works in production?"
+  "date": "2026-11-08",
+  "entry": "data/daily/2026-11-08.md",
+  "topic": "Observability",
+  "reflection": "What assumption would be most expensive if it turned out to be false?"
 }
