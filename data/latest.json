@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-09",
-  "entry": "data/daily/2026-11-09.md",
-  "topic": "Observability",
-  "reflection": "What can be removed while preserving the required behavior?"
+  "date": "2026-11-10",
+  "entry": "data/daily/2026-11-10.md",
+  "topic": "Safe migrations",
+  "reflection": "Which edge case is currently handled only by convention?"
 }
