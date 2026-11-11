@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "entry": "data/daily/2026-11-10.md",
-  "topic": "Safe migrations",
-  "reflection": "Which edge case is currently handled only by convention?"
+  "date": "2026-11-11",
+  "entry": "data/daily/2026-11-11.md",
+  "topic": "Data invariants",
+  "reflection": "Where is the boundary between a recoverable failure and a fatal one?"
 }
