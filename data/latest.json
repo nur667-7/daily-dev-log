@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "entry": "data/daily/2026-11-15.md",
-  "topic": "Small functions",
-  "reflection": "What evidence would convince you that the change works in production?"
+  "date": "2026-11-16",
+  "entry": "data/daily/2026-11-16.md",
+  "topic": "Boundary validation",
+  "reflection": "What assumption would be most expensive if it turned out to be false?"
 }
