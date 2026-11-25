@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "entry": "data/daily/2026-11-24.md",
-  "topic": "Observability",
-  "reflection": "Which part could be made easier to verify with a smaller interface?"
+  "date": "2026-11-25",
+  "entry": "data/daily/2026-11-25.md",
+  "topic": "Data invariants",
+  "reflection": "What evidence would convince you that the change works in production?"
 }
