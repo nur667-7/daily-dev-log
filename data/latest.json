@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "entry": "data/daily/2026-11-26.md",
-  "topic": "Caching",
-  "reflection": "What future change would this design make unnecessarily difficult?"
+  "date": "2026-11-27",
+  "entry": "data/daily/2026-11-27.md",
+  "topic": "Concurrency",
+  "reflection": "Which part could be made easier to verify with a smaller interface?"
 }
