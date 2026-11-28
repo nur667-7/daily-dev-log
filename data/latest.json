@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "entry": "data/daily/2026-11-27.md",
-  "topic": "Concurrency",
-  "reflection": "Which part could be made easier to verify with a smaller interface?"
+  "date": "2026-11-28",
+  "entry": "data/daily/2026-11-28.md",
+  "topic": "API contracts",
+  "reflection": "Which edge case is currently handled only by convention?"
 }
